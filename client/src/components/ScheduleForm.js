@@ -70,8 +70,7 @@ const ScheduleForm = () => {
                   type="datetime-local"
                   name="startDateTime"
                   value={formData.startDateTime}
-                  onChange={handleChange}
-                  readOnly
+                  onChange={handleChange} // Make this field editable
                 />
               </Form.Group>
               <Form.Group controlId="durationMins" className="mt-3">
